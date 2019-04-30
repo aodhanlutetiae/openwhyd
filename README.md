@@ -12,3 +12,6 @@ uses ALS from the Implicit library and a system of matrices to suggest n number 
 
 KNN
 returns a predicted score of a user U when s/he is faced with a song S. Not clear how it's to be exploited.
+
+I have tried and failed with some others:
+Frequent Pattern Growth, Association Rule Mining, Bayesian Personalised Ranking
