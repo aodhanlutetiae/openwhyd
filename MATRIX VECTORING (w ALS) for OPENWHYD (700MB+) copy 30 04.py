@@ -69,7 +69,7 @@ import os
 
 # importer le log (725 MB): 
 
-open_sample = pd.read_csv('/Users/aidanairuser/Desktop/OPENWHYD/yt_playlog_0404.csv')
+open_sample = pd.read_csv('.CSV FILE LOCATION')
 
 
 # In[3]:
@@ -146,7 +146,7 @@ len(checking)
 # Comme on nettoie le df en parties, parfois on reprend là où on s'était arrêté en important un df qu'on a déjà
 # nettoyé en partie.
 
-checking = pd.read_csv('/Users/aidanairuser/Desktop/OPENWHYD/yt_log_checked_0_to_210K_0404.csv')
+checking = pd.read_csv('.CSV FILE LOCATION')
 checking.drop('Unnamed: 0', axis=1, inplace=True)
 checking.head(5)
 
