@@ -49,7 +49,7 @@ from surprise.model_selection import train_test_split
 
 
 # import the log with its 'scores' derived by patouche
-log = pd.read_csv('/Users/aidanairuser/Desktop/OPENWHYD/users_rating_pat.csv')
+log = pd.read_csv('.CSV FILE LOCATION')
 
 # rename the 'count' column because 'count' is a method in python libraries
 log.rename(columns = {'song_id':'song','count':'count_score'}, inplace = True)
