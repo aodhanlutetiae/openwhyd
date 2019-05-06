@@ -2,13 +2,13 @@
 Building a rec-sys for the music sharing platform Openwhyd
 
 MATRIX FACTORISATION
-uses ALS from the Implicit library and a system of matrices to suggest n number of songs for a given user. Returns N number of recommended songs for a user, U.
+-- uses ALS from the Implicit library and a system of matrices to suggest n number of songs for a given user. Returns N number of recommended songs for a user, U.
 
 KNN
-returns a predicted score of a user U when s/he is faced with a song S. Not clear how it's to be exploited on a large scale.
+-- returns a predicted score of a user U when s/he is faced with a song S. Not clear how it's to be exploited on a large scale.
 
 SIMPLE ALGO
-an algorithm from first principles which simply matches users who have at least one song in common and then proposes to each
+-- an algorithm from first principles which simply matches users who have at least one song in common and then proposes to each
 songs of the other
 
 OTHER FILES
@@ -20,5 +20,5 @@ TIMESTAMP DATA
 Notebook that manipulates the timestamp data that's included in the log and shows user engagement over the time period of the log.
 
 
-I have tried and failed with some other algorithsm:
+I have tried and failed with some other algorithms:
 Frequent Pattern Growth, Association Rule Mining, Bayesian Personalised Ranking
